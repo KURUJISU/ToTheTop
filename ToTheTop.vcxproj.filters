@@ -10,14 +10,44 @@
 		<ClCompile Include="src\actorManager.cpp">
 			<Filter>src</Filter>
 		</ClCompile>
-		<ClCompile Include="src\actors\actor.cpp">
-			<Filter>src\actors</Filter>
+		<ClCompile Include="src\Actors\actor.cpp">
+			<Filter>src\Actors</Filter>
 		</ClCompile>
-		<ClCompile Include="src\actors\brick.cpp">
-			<Filter>src\actors</Filter>
+		<ClCompile Include="src\Actors\Brick\brick.cpp">
+			<Filter>src\Actors\Brick</Filter>
 		</ClCompile>
-		<ClCompile Include="src\actors\player.cpp">
-			<Filter>src\actors</Filter>
+		<ClCompile Include="src\Actors\Brick\brickManager.cpp">
+			<Filter>src\Actors\Brick</Filter>
+		</ClCompile>
+		<ClCompile Include="src\Actors\Player\duckingState.cpp">
+			<Filter>src\Actors\Player</Filter>
+		</ClCompile>
+		<ClCompile Include="src\Actors\Player\jumpingState.cpp">
+			<Filter>src\Actors\Player</Filter>
+		</ClCompile>
+		<ClCompile Include="src\Actors\Player\movingState.cpp">
+			<Filter>src\Actors\Player</Filter>
+		</ClCompile>
+		<ClCompile Include="src\Actors\Player\player.cpp">
+			<Filter>src\Actors\Player</Filter>
+		</ClCompile>
+		<ClCompile Include="src\Actors\Player\playerState.cpp">
+			<Filter>src\Actors\Player</Filter>
+		</ClCompile>
+		<ClCompile Include="src\Actors\Player\standingState.cpp">
+			<Filter>src\Actors\Player</Filter>
+		</ClCompile>
+		<ClCompile Include="src\Actors\Player\stateManager.cpp">
+			<Filter>src\Actors\Player</Filter>
+		</ClCompile>
+		<ClCompile Include="src\Actors\WarpZone\warpZone.cpp">
+			<Filter>src\Actors\WarpZone</Filter>
+		</ClCompile>
+		<ClCompile Include="src\BackGround\backGround.cpp">
+			<Filter>src\BackGround</Filter>
+		</ClCompile>
+		<ClCompile Include="src\input.cpp">
+			<Filter>src</Filter>
 		</ClCompile>
 		<ClCompile Include="src\main.cpp">
 			<Filter>src</Filter>
@@ -28,11 +58,29 @@
 		<ClCompile Include="src\precompiled.cpp">
 			<Filter>src</Filter>
 		</ClCompile>
-		<ClCompile Include="src\scenes\gameMain.cpp">
-			<Filter>src\scenes</Filter>
+		<ClCompile Include="src\Scenes\gameMain.cpp">
+			<Filter>src\Scenes</Filter>
 		</ClCompile>
-		<ClCompile Include="src\scenes\gameTitle.cpp">
-			<Filter>src\scenes</Filter>
+		<ClCompile Include="src\Scenes\gameTitle.cpp">
+			<Filter>src\Scenes</Filter>
+		</ClCompile>
+		<ClCompile Include="src\Scenes\ninjaScene.cpp">
+			<Filter>src\Scenes</Filter>
+		</ClCompile>
+		<ClCompile Include="src\Scenes\wemScene.cpp">
+			<Filter>src\Scenes</Filter>
+		</ClCompile>
+		<ClCompile Include="src\Scenes\yanaiScene.cpp">
+			<Filter>src\Scenes</Filter>
+		</ClCompile>
+		<ClCompile Include="src\uiManager.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\UserInterface\uiBase.cpp">
+			<Filter>src\UserInterface</Filter>
+		</ClCompile>
+		<ClCompile Include="src\UserInterface\uiMeter.cpp">
+			<Filter>src\UserInterface</Filter>
 		</ClCompile>
 		<ClCompile Include="..\..\addons\ofxAnimatable\src\ofxAnimatable.cpp">
 			<Filter>addons\ofxAnimatable\src</Filter>
@@ -93,11 +141,26 @@
 		<Filter Include="src">
 			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
 		</Filter>
-		<Filter Include="src\actors">
-			<UniqueIdentifier>{F3209B39-77F3-D496-4E0F-E2D5}</UniqueIdentifier>
+		<Filter Include="src\Actors">
+			<UniqueIdentifier>{887E9F6E-4B2D-37C1-FB6B-1C4A}</UniqueIdentifier>
 		</Filter>
-		<Filter Include="src\scenes">
-			<UniqueIdentifier>{8E7977D1-1DB1-AB02-A133-0EC0}</UniqueIdentifier>
+		<Filter Include="src\Actors\Brick">
+			<UniqueIdentifier>{21D465C1-8909-4F86-5E7A-7F6C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\Actors\Player">
+			<UniqueIdentifier>{D0A67185-512C-852A-E43C-6E7D}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\Actors\WarpZone">
+			<UniqueIdentifier>{79C06738-ACFB-B8C0-6649-5F35}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\BackGround">
+			<UniqueIdentifier>{E9731219-29BC-E0D5-0D69-DEA1}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\Scenes">
+			<UniqueIdentifier>{6A6AB684-C3B3-7377-6FC5-6FBF}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\UserInterface">
+			<UniqueIdentifier>{ABBFD203-F085-24FC-363B-A4FD}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="addons">
 			<UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
@@ -170,14 +233,32 @@
 		<ClInclude Include="src\actorManager.h">
 			<Filter>src</Filter>
 		</ClInclude>
-		<ClInclude Include="src\actors\actor.h">
-			<Filter>src\actors</Filter>
+		<ClInclude Include="src\Actors\actor.h">
+			<Filter>src\Actors</Filter>
 		</ClInclude>
-		<ClInclude Include="src\actors\brick.h">
-			<Filter>src\actors</Filter>
+		<ClInclude Include="src\Actors\Brick\brick.h">
+			<Filter>src\Actors\Brick</Filter>
 		</ClInclude>
-		<ClInclude Include="src\actors\player.h">
-			<Filter>src\actors</Filter>
+		<ClInclude Include="src\Actors\Brick\brickManager.h">
+			<Filter>src\Actors\Brick</Filter>
+		</ClInclude>
+		<ClInclude Include="src\Actors\Player\player.h">
+			<Filter>src\Actors\Player</Filter>
+		</ClInclude>
+		<ClInclude Include="src\Actors\Player\playerState.h">
+			<Filter>src\Actors\Player</Filter>
+		</ClInclude>
+		<ClInclude Include="src\Actors\Player\stateManager.h">
+			<Filter>src\Actors\Player</Filter>
+		</ClInclude>
+		<ClInclude Include="src\Actors\WarpZone\warpZone.h">
+			<Filter>src\Actors\WarpZone</Filter>
+		</ClInclude>
+		<ClInclude Include="src\BackGround\backGround.h">
+			<Filter>src\BackGround</Filter>
+		</ClInclude>
+		<ClInclude Include="src\input.h">
+			<Filter>src</Filter>
 		</ClInclude>
 		<ClInclude Include="src\ofApp.h">
 			<Filter>src</Filter>
@@ -185,14 +266,32 @@
 		<ClInclude Include="src\precompiled.h">
 			<Filter>src</Filter>
 		</ClInclude>
-		<ClInclude Include="src\scenes\gameMain.h">
-			<Filter>src\scenes</Filter>
+		<ClInclude Include="src\Scenes\gameMain.h">
+			<Filter>src\Scenes</Filter>
 		</ClInclude>
-		<ClInclude Include="src\scenes\gameTitle.h">
-			<Filter>src\scenes</Filter>
+		<ClInclude Include="src\Scenes\gameTitle.h">
+			<Filter>src\Scenes</Filter>
 		</ClInclude>
-		<ClInclude Include="src\scenes\scene.h">
-			<Filter>src\scenes</Filter>
+		<ClInclude Include="src\Scenes\ninjaScene.h">
+			<Filter>src\Scenes</Filter>
+		</ClInclude>
+		<ClInclude Include="src\Scenes\scene.h">
+			<Filter>src\Scenes</Filter>
+		</ClInclude>
+		<ClInclude Include="src\Scenes\wemScene.h">
+			<Filter>src\Scenes</Filter>
+		</ClInclude>
+		<ClInclude Include="src\Scenes\yanaiScene.h">
+			<Filter>src\Scenes</Filter>
+		</ClInclude>
+		<ClInclude Include="src\uiManager.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\UserInterface\uiBase.h">
+			<Filter>src\UserInterface</Filter>
+		</ClInclude>
+		<ClInclude Include="src\UserInterface\uiMeter.h">
+			<Filter>src\UserInterface</Filter>
 		</ClInclude>
 		<ClInclude Include="..\..\addons\ofxAnimatable\src\ofxAnimatable.h">
 			<Filter>addons\ofxAnimatable\src</Filter>
